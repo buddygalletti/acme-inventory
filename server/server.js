@@ -8,3 +8,8 @@ const db = new Sequelize(`postgres://localhost:5432/acme_inventory`, {
 });
 
 const app = express();
+
+
+
+
+module.exports = db;
